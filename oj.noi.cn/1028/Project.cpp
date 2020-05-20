@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-	int a,b;
+	int a,b,c;
 	cin>>a,b;
-	if (a%b!=0)
+	if (a%2!=0 && a%3!=0 && a%4!=0 && a%5!=0 && a&6!=0 && b%2!=0 && b%3!=0 && b%4!=0 && b%5!=0 && b&6!=0)
 	{
 		cout<<"Yes";
 	}
@@ -13,4 +13,4 @@ int main()
 		cout<<"No";
 	}
 	return 0;
- } 
+}
